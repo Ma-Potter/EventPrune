@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite the EventPrune paper when using this software."
+type: software
+title: "EventPrune: Cascaded Event-Assisted Token Pruning"
+version: 0.1.0
+license: Apache-2.0
+url: "https://pengtaoma00.github.io/eventprune/"
+authors:
+  - family-names: Ma
+    given-names: Pengtao
+  - family-names: Zhou
+    given-names: Ziliang
+  - family-names: Ruan
+    given-names: Ciyu
+  - family-names: Wang
+    given-names: Haoyang
+  - family-names: Li
+    given-names: Kaiyuan
+  - family-names: Gong
+    given-names: Zihang
+  - family-names: Ding
+    given-names: Wenhua
+  - family-names: Gao
+    given-names: Chen
+  - family-names: Xu
+    given-names: Jingao
+  - family-names: Chen
+    given-names: Xinlei
+identifiers:
+  - type: url
+    value: "https://arxiv.org/abs/2605.19506"

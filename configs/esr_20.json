@@ -1,0 +1,17 @@
+{
+  "4": {
+    "keep_ratio": 0.5,
+    "fusion_gamma": 0.8
+  },
+  "8": {
+    "keep_ratio": 0.5,
+    "fusion_gamma": 0.6
+  },
+  "15": {
+    "keep_ratio": 0.5,
+    "fusion_gamma": 0.5
+  },
+  "23": {
+    "keep_ratio": 0.0
+  }
+}

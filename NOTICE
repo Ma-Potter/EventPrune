@@ -1,0 +1,26 @@
+EventPrune
+Copyright 2026 EventPrune authors.
+
+This repository includes a customized Qwen2.5-VL implementation and its
+configuration, image processing, and processor files, derived from Qwen and
+Hugging Face Transformers. The original copyright and Apache License 2.0 notices
+are retained in the source files.
+
+Qwen2.5-VL:
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+https://github.com/QwenLM/Qwen2.5-VL
+https://github.com/huggingface/transformers
+
+The included qwen_vl_utils module is based on Qwen VL Utils and contains the
+RGB/event processing modifications used by this project. Its existing source
+notices are retained.
+https://github.com/QwenLM/Qwen2.5-VL/tree/main/qwen-vl-utils
+
+The code is distributed under the Apache License, Version 2.0. See LICENSE.
+Third-party dependencies remain subject to their respective licenses.
+
+ESR-Real data is distributed separately under Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). The code license
+does not change the dataset license.
+https://huggingface.co/datasets/pengtaoma00/ESR-Real
+https://creativecommons.org/licenses/by-nc/4.0/
