@@ -1,8 +1,17 @@
-# EventPrune
+<h1 align="center">✂️ EventPrune</h1>
 
-**Cascaded Event-Assisted Token Pruning for Efficient Embodied Spatial Reasoning · NeurIPS 2026**
+<p align="center">
+  <strong>Cascaded Event-Assisted Token Pruning<br>
+  for Efficient Embodied Spatial Reasoning</strong>
+</p>
 
-[Paper](https://arxiv.org/abs/2605.19506) · [Project](https://pengtaoma00.github.io/eventprune/) · [ESR-Real](https://huggingface.co/datasets/pengtaoma00/ESR-Real)
+<p align="center"><strong>NeurIPS 2026</strong></p>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2605.19506"><img src="https://img.shields.io/badge/Paper-arXiv-B31B1B?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="Paper on arXiv"></a>
+  <a href="https://pengtaoma00.github.io/eventprune/"><img src="https://img.shields.io/badge/Project-Website-2563EB?style=flat-square&amp;logo=githubpages&amp;logoColor=white" alt="Project website"></a>
+  <a href="https://huggingface.co/datasets/pengtaoma00/ESR-Real"><img src="https://img.shields.io/badge/Dataset-ESR--Real-E0A526?style=flat-square&amp;logo=huggingface&amp;logoColor=white" alt="ESR-Real on Hugging Face"></a>
+</p>
 
 Event Cascade Pruning (ECP) uses event data to guide temporal sampling, motion saliency filtering, and attention–event rank fusion. This repository provides the ESR-Real evaluation script, the customized Qwen2.5-VL implementation, and its visual processing tools.
 
