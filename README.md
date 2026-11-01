@@ -55,18 +55,20 @@ CUDA_VISIBLE_DEVICES=0 python esrbench.py \
   --use_earf
 ```
 
-For the other budgets, change the configuration and filtering parameter, and choose a separate run name and output directory:
-
-| Budget | `--pruning_config_file` | `--emsf_drop_fraction` |
-|---|---|---|
-| 20% | `configs/esr_20.json` | 0.30 |
-| 50% | `configs/esr_50.json` | 0.24 |
-| 70% | `configs/esr_70.json` | 0.16 |
-
-The configurations apply additive rank fusion at layer indices 4, 8, and 15, with event weights 0.8, 0.6, and 0.5. Predictions and logs are saved under the specified result directory.
-
-Original review-example metadata is retained in `examples/demo_manifest.json`.
-
 ## License
 
 Code is licensed under Apache-2.0; upstream notices are retained in [NOTICE](NOTICE) and the source files. ESR-Real data is separately licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+
+## Citation
+
+If you use our code or dataset in your research, please cite our paper:
+
+```bibtex
+@inproceedings{ma2026eventprune,
+  title={EventPrune: Cascaded Event-Assisted Token Pruning for Efficient Embodied Spatial Reasoning},
+  author={Pengtao Ma and Ziliang Zhou and Ciyu Ruan and Haoyang Wang and Kaiyuan Li and Zihang Gong and Wenhua Ding and Chen Gao and Jingao Xu and Xinlei Chen},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2026},
+  url={https://arxiv.org/abs/2605.19506}
+}
+```
