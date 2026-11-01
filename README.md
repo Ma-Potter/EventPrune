@@ -64,11 +64,13 @@ Code is licensed under Apache-2.0; upstream notices are retained in [NOTICE](NOT
 If you use our code or dataset in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{ma2026eventprune,
-  title={EventPrune: Cascaded Event-Assisted Token Pruning for Efficient Embodied Spatial Reasoning},
+@misc{ma2026eventprunecascadedeventassistedtoken,
+  title={EventPrune: Cascaded Event-Assisted Token Pruning for Efficient First-Person Dynamic Spatial Reasoning},
   author={Pengtao Ma and Ziliang Zhou and Ciyu Ruan and Haoyang Wang and Kaiyuan Li and Zihang Gong and Wenhua Ding and Chen Gao and Jingao Xu and Xinlei Chen},
-  booktitle={Advances in Neural Information Processing Systems},
   year={2026},
-  url={https://arxiv.org/abs/2605.19506}
+  eprint={2605.19506},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2605.19506},
 }
 ```
