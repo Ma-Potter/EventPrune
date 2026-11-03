@@ -16,7 +16,7 @@
 Event Cascade Pruning (ECP) uses event data to guide temporal sampling, motion saliency filtering, and attention–event rank fusion. This repository provides the ESR-Real evaluation script, the customized Qwen2.5-VL implementation, and its visual processing tools.
 
 <p align="center">
-  <a href="assets/overview.png"><img src="assets/overview.png" alt="EventPrune preserves spatial structure while reducing visual tokens." width="900"></a>
+  <a href="assets/overview.png"><img src="assets/overview.png" alt="EventPrune preserves spatial structure while reducing visual tokens." width="560"></a>
 </p>
 
 <p align="center">
@@ -79,7 +79,7 @@ CUDA_VISIBLE_DEVICES=0 python esrbench.py \
 Attention maps and layer-wise statistics reveal peripheral attention bias, motivating event-assisted calibration.
 
 <p align="center">
-  <a href="assets/attention_bias.png"><img src="assets/attention_bias.png" alt="Spatial attention maps and layer-wise peripheral attention statistics." width="900"></a>
+  <a href="assets/attention_bias.png"><img src="assets/attention_bias.png" alt="Spatial attention maps and layer-wise peripheral attention statistics." width="560"></a>
 </p>
 
 ### Retained-token visualization
