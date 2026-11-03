@@ -4,7 +4,7 @@ type: software
 title: "EventPrune: Cascaded Event-Assisted Token Pruning"
 version: 0.1.0
 license: Apache-2.0
-url: "https://pengtaoma00.github.io/eventprune/"
+url: "https://ma-potter.github.io/pengtaoma00.github.io/eventprune/"
 authors:
   - family-names: Ma
     given-names: Pengtao
